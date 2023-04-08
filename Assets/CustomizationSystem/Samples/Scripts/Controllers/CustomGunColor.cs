@@ -24,7 +24,7 @@ namespace CustomizationSystem.Samples.Scripts.Controllers
         private void OnSelected(CS_SelectableItem obj)
         {
             GunColor gunColor = (GunColor) obj.Object;
-            _targetMesh.material.color = gunColor._color;
+            _targetMesh.material.color = gunColor.Color;
         }
     }
 }

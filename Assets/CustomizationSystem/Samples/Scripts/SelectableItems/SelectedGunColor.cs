@@ -12,7 +12,7 @@ namespace CustomizationSystem.Samples.Scripts.SelectableItems
         public override void InitObject(CS_SelectableObjectBase obj)
         {
             GunColor gunColor = (GunColor) obj;
-            _colorImage.color = gunColor._color;
+            _colorImage.color = gunColor.Color;
             base.InitObject(obj);
         }
     }

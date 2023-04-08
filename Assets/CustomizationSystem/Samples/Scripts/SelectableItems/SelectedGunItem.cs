@@ -10,7 +10,7 @@ namespace CustomizationSystem.Samples.Scripts.SelectableItems
         public override void InitObject(CS_SelectableObjectBase obj)
         {
             GunItem item = (GunItem) obj;
-            var child = Instantiate(item._object, transform);
+            var child = Instantiate(item.Object, transform);
             child.transform.localScale = new Vector3(100, 100, 100);
             child.transform.localPosition = Vector3.zero;
             base.InitObject(obj);

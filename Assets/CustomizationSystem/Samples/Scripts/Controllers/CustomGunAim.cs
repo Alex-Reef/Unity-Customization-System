@@ -30,7 +30,7 @@ namespace CustomizationSystem.Samples.Scripts.Controllers
             _collection.Items.ForEach(item =>
             {
                 var gunItem = (GunItem) item.Object;
-                var obj = Instantiate(gunItem._object, _target);
+                var obj = Instantiate(gunItem.Object, _target);
                 obj.transform.localPosition = Vector3.zero;
                 obj.SetActive(false);
                 _poolObjects.Add(gunItem.ItemName,obj);
