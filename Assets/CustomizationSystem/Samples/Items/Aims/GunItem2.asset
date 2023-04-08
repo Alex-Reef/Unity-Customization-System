@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23aecde908a14baa9f92e6fc8c61b7cb, type: 3}
+  m_Name: GunItem2
+  m_EditorClassIdentifier: 
+  _object: {fileID: 6702721064819548018, guid: a868619a272e4384f8adcd518da90cae, type: 3}
+  ItemName: Capsule
