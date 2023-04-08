@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23aecde908a14baa9f92e6fc8c61b7cb, type: 3}
   m_Name: GunItem1
   m_EditorClassIdentifier: 
-  _object: {fileID: 6323522382795937293, guid: 34954de6b7ab45c4381a8886e8c2edd1, type: 3}
+  Object: {fileID: 6323522382795937293, guid: 34954de6b7ab45c4381a8886e8c2edd1, type: 3}
   ItemName: Cube

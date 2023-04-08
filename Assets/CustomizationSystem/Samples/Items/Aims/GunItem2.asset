@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23aecde908a14baa9f92e6fc8c61b7cb, type: 3}
   m_Name: GunItem2
   m_EditorClassIdentifier: 
-  _object: {fileID: 6702721064819548018, guid: a868619a272e4384f8adcd518da90cae, type: 3}
+  Object: {fileID: 6702721064819548018, guid: a868619a272e4384f8adcd518da90cae, type: 3}
   ItemName: Capsule
